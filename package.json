@@ -1,0 +1,41 @@
+{
+  "name": "chat-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "autoprefixer": "^10.4.19",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.4.39",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.3",
+    "url-loader": "^4.1.1"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^0.0.24",
+    "@clerk/nextjs": "^5.1.6",
+    "@google/generative-ai": "^0.14.0",
+    "@nanostores/react": "github:ai/react",
+    "@types/mongoose": "^5.11.97",
+    "ai": "^3.2.16",
+    "antd": "^5.19.0",
+    "lucide-react": "^0.399.0",
+    "mongoose": "^5.13.22",
+    "react-markdown": "^9.0.1",
+    "react-share": "^5.1.0",
+    "ts-mongoose": "^0.0.24",
+    "zustand": "^4.5.4"
+  }
+}
