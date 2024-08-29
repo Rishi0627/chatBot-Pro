@@ -30,7 +30,7 @@ function Messages({
         <div className="flex flex-col text-gray-400 text-sm font-bold">
           <span>Heyy , {loggedInUserData.name}</span>
           <span>
-            I am Shey, your personal assistant. How can I help you today?
+            Hey, How can I help you today?
           </span>
         </div>
       </div>
