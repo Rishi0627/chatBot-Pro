@@ -126,9 +126,9 @@ function Sidebar({ setShowSidebar = () => {} }: { setShowSidebar?: any }) {
       </div>
 
       <div className="flex flex-col gap-1 p-3">
-        <span className="text-gray-400 text-xs">Designed & Developed by</span>
+        <span className="text-gray-400 text-xs"></span>
         <hr className="border border-gray-500 border-solid w-10" />
-        <span className="text-gray-400 text-xs">Rishi Raj</span>
+        <span className="text-gray-400 text-xs"></span>
       </div>
     </div>
   );
